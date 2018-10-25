@@ -15,7 +15,16 @@ public class Siege extends Unit implements Attacker {
         if (this.getStatus()==false) {
             System.out.println("Unidad Debilitada,no puede atacar");}
         //Si la unidad no esta debilitada ataca
-        else{U.receivedamagefromSiege(this);}}
+        else{U.receivedamagefromSiege(this);}
+    }
+    @Override
+    public void attack(Building B){
+
+        if (!this.getStatus()) {
+            System.out.println("Unidad Debilitada,no puede atacar");}
+        //Si la unidad no esta debilitada ataca
+        else{B.receivedamagefromSiege(this);}
+    }
 
      //Ataca más a siege que ataque normal
     @Override

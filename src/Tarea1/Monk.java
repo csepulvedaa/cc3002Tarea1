@@ -11,6 +11,14 @@ public class Monk extends Unit implements Attacker {
         else{U.receivedamagefromMonk(this);}
     }
     @Override
+    public void attack(Building B){
+
+        if (this.getStatus()==false) {
+            System.out.println("Unidad Debilitada,no puede atacar");}
+        //Si la unidad no esta debilitada ataca
+        else{System.out.println("Wololo");;}
+    }
+    @Override
     public void receivedamagefromInfantry(Infantry U){
         this.damage=this.hp;
         this.status=false;

@@ -22,7 +22,17 @@ public class Archer extends Unit implements Attacker {
         if (this.getStatus()==false) {
             System.out.println("Unidad Debilitada,no puede atacar");}
         //Si la unidad no esta debilitada ataca
-        else{u.receivedamagefromArcher(this);}}
+        else{u.receivedamagefromArcher(this);}
+    }
+    @Override
+    public void attack(Building B){
+
+        if (this.getStatus()==false) {
+            System.out.println("Unidad Debilitada,no puede atacar");}
+        //Si la unidad no esta debilitada ataca
+        else{B.receivedamagefromArcher(this);}
+    }
+
 
     //Ataca mas a archer que lo normal
     @Override

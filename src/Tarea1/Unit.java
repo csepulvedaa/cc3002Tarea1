@@ -48,6 +48,9 @@ public abstract class Unit implements Attacker {
     public void attack(Unit U) {
         this.damage+=U.attack;
     }
+    public void attack(Building B){
+        this.damage+=B.attack;
+    }
 
     protected boolean getStatus(){
         if (this.hp<=this.damage){
@@ -79,8 +82,8 @@ public abstract class Unit implements Attacker {
     public void receivedamagefromSiege(Siege U){
         this.damage+=U.attack;
     }
-    public void receivedamagefromCastle(Castle U){
-        this.damage+=U.attack*1.2;
+    public void receivedamagefromCastle(Castle B){
+        this.damage+=B.attack*1.2;
     }
 
 

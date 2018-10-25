@@ -14,10 +14,18 @@ public class Villager extends Unit implements Attacker {
     }
     @Override
     public void attack(Unit U){
-        if (this.getStatus()==false) {
+        if (!this.getStatus()) {
             System.out.println("Unidad Debilitada,no puede atacar");}
         //Si la unidad no esta debilitada ataca
         else{U.receivedamagefromVillager(this);}
+    }
+    @Override
+    public void attack(Building B){
+
+        if (!this.getStatus()) {
+            System.out.println("Unidad Debilitada,no puede atacar");}
+        //Si la unidad no esta debilitada ataca
+        else{B.receivedamagefromVillager(this);}
     }
     //Villager es atacado mas de lo normal por todas las unidades excepto villager
     @Override

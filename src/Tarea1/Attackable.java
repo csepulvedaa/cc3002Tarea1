@@ -6,6 +6,6 @@ public interface Attackable {
     public void receivedamagefromCavalry(Cavalry U);
     public void receivedamagefromVillager(Villager U);
     public void receivedamagefromSiege(Siege U);
-    public void receivedamagefromCastle(Castle U);
+    public void receivedamagefromCastle(Castle B);
 
 }

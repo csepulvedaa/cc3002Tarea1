@@ -11,12 +11,21 @@ public class Cavalry extends Unit implements Attacker {
         super();
         this.type="Cavalry";
     }
+    @Override
     public void attack(Unit u){
 
-        if (this.getStatus()==false) {
+        if (!this.getStatus()) {
             System.out.println("Unidad Debilitada,no puede atacar");}
         //Si la unidad no esta debilitada ataca
         else{u.receivedamagefromCavalry(this);}
+    }
+    @Override
+    public void attack(Building B){
+
+        if (!this.getStatus()) {
+            System.out.println("Unidad Debilitada,no puede atacar");}
+        //Si la unidad no esta debilitada ataca
+        else{B.receivedamagefromCavalry(this);}
     }
 
     //Ataca mas a un cavalry que lo normal

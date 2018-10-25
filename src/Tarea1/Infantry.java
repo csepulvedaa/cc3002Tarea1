@@ -1,10 +1,10 @@
 package Tarea1;
-
+/**
+ * Crea una unidad de tipo Infantry, establece los mismos valores por defecto que la clase unit
+ * Llamada super y modifica el tipo a infantry
+ */
 public class Infantry extends Unit implements Attacker {
-    /**
-     * Crea una unidad de tipo Infantry, establece los mismos valores por defecto que la clase unit
-     * Llamada super y modifica el tipo a infantry
-     */
+
     public Infantry() {
         super();
         this.type="Infantry";
@@ -13,10 +13,18 @@ public class Infantry extends Unit implements Attacker {
     //Si la unidad no esta muerta, ataca
     @Override
     public void attack(Unit U){
-        if (this.getStatus()==false) {
+        if (!this.getStatus()) {
             System.out.println("Unidad Debilitada,no puede atacar");}
         //Si la unidad no esta debilitada ataca
         else{U.receivedamagefromInfantry(this);}
+    }
+    @Override
+    public void attack(Building B){
+
+        if (!this.getStatus()) {
+            System.out.println("Unidad Debilitada,no puede atacar");}
+        //Si la unidad no esta debilitada ataca
+        else{B.receivedamagefromInfantry(this);}
     }
 
     //Recibe mas daño al ser atacado por alguna de estas clases

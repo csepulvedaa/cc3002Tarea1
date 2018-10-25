@@ -9,7 +9,7 @@ public abstract class Building implements Attackable{
     public Building (){
         this.type="Building";
         this.attack=0;
-        this.hp=200;
+        this.hp=1000;
         this.damage=0;
         this.status=true;
     }
@@ -29,10 +29,10 @@ public abstract class Building implements Attackable{
 
     //Getter/
 
-    private double getDamage(){
+    protected double getDamage(){
         return this.damage;
     }
-    private double getAttack(){
+    protected double getAttack(){
         return attack;
     }
     /**
@@ -44,8 +44,14 @@ public abstract class Building implements Attackable{
     }
 
     boolean getStatus(){
-        return status;
-    };
+
+        if (this.hp<=this.damage){
+            this.status=false;
+            return status;}
+        else  {
+            this.status=true;
+            return status;
+    }}
 
     public void receivedamagefromInfantry(Infantry U)
     {
@@ -61,13 +67,17 @@ public abstract class Building implements Attackable{
     }
 
     public void receivedamagefromVillager(Villager U){
-        this.hp+=U.attack*0.7;
+        this.hp+=U.attack*0.3;
     }
     public void receivedamagefromSiege(Siege U){
-        this.damage+=U.attack;
+        this.damage+=U.attack*2;
     }
 
-    public void receivedamagefromCastle(Castle U){}
+    public void receivedamagefromCastle(Castle B){
+        this.damage=+B.attack*0.7;
+    }
 
 
+    public  void attack(Unit U){};
+    public  void attack(Building B){};
 }
