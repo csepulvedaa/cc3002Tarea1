@@ -10,6 +10,7 @@ public class Cavalry extends Unit implements Attacker {
     public Cavalry(){
         super();
         this.type="Cavalry";
+        this.hp=200;
     }
     @Override
     public void attack(Unit u){
@@ -36,7 +37,7 @@ public class Cavalry extends Unit implements Attacker {
     //Ataca menos a un cavalry que lo normal
     @Override
     public void receivedamagefromVillager(Villager U) {
-    this.damage+=U.getAttack()*0.8;
+    this.damage+=U.getAttack()*0.5;
     }
 
 

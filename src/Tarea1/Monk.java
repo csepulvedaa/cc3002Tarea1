@@ -3,9 +3,10 @@ package Tarea1;
 public class Monk extends Unit implements Attacker {
     public Monk(){
         this.type="Monk";
+        this.hp=50;
     }
     public void attack(Unit U){
-        if (this.getStatus()==false) {
+        if (!this.getStatus()) {
             System.out.println("Unidad Debilitada,no puede atacar");}
         //Si la unidad no esta debilitada ataca
         else{U.receivedamagefromMonk(this);}
@@ -13,32 +14,40 @@ public class Monk extends Unit implements Attacker {
     @Override
     public void attack(Building B){
 
-        if (this.getStatus()==false) {
+        if (!this.getStatus()) {
             System.out.println("Unidad Debilitada,no puede atacar");}
         //Si la unidad no esta debilitada ataca
         else{System.out.println("Wololo");;}
     }
     @Override
     public void receivedamagefromInfantry(Infantry U){
-        this.damage=this.hp;
+        double a= this.getHP();
         this.status=false;
+        this.damage=a;
+
     }
     @Override
     public void receivedamagefromArcher(Archer U){
-        this.damage=this.hp;
+        double a= this.getHP();
         this.status=false;
-
+        this.damage=a;
+    }
+    @Override
+    public void receivedamagefromVillager(Villager U){
+        System.out.println("Wololo");
     }
 
     @Override
     public void receivedamagefromCavalry(Cavalry U) {
-        this.damage=this.hp;
+        double a= this.getHP();
         this.status=false;
+        this.damage=a;
     }
     @Override
     public void receivedamagefromSiege(Siege u){
-        this.damage=this.hp;
+        double a= this.getHP();
         this.status=false;
+        this.damage=a;
     }
 
 

@@ -46,7 +46,10 @@ public class BarrackTest {
     public void receivedamagefromVillager() {
         Aldeano.SetAttack(100);
         Aldeano.attack(Barraca);
-        assertEquals("Expected higher hp",570,Barraca.getHP(),0);
+        assertEquals("Expected repair the damage",-70,Barraca.getDamage(),0);
+        Barraca.SetHp(4000);
+        Aldeano.attack(Barraca);
+        assertEquals("Expected final hp as hp of Barrack is 4000",4000,Barraca.getHP(),0);
     }
 
     @Test

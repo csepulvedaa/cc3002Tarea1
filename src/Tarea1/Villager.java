@@ -11,6 +11,7 @@ public class Villager extends Unit implements Attacker {
     public Villager() {
         super();
         this.type = "Villager";
+        this.hp=200;
     }
     @Override
     public void attack(Unit U){

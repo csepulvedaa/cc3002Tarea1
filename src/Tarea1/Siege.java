@@ -8,7 +8,9 @@ package Tarea1;
 public class Siege extends Unit implements Attacker {
     public Siege(){
         super();
-        this.type="Siege";}
+        this.type="Siege";
+
+        this.hp=200;}
 
     @Override
     public void attack(Unit U){

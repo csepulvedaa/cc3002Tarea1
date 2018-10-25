@@ -9,6 +9,12 @@ public class Barrack extends Building implements Attackable{
     @Override
     //Repara mas de lo normal
     public void receivedamagefromVillager(Villager U){
-        this.hp+=U.getAttack()*0.7;
+
+        if (this.getHP() != this.getMaxhp()) {
+            this.damage-=U.getAttack()* 0.7;
+
+        } else {
+            this.damage+=U.getAttack()*0;
+        }
     }
 }

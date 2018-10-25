@@ -6,15 +6,19 @@ public abstract class Building implements Attackable{
     protected double hp; //hp o puntos de vida
     protected double damage;// contador de daño recibido
     protected boolean status; //Estado de la unidad
+    protected double maxhp;//hpmaximo
     public Building (){
         this.type="Building";
         this.attack=0;
-        this.hp=1000;
         this.damage=0;
         this.status=true;
+        this.maxhp=4000;
     }
     void SetHp(double i){
         this.hp=i;
+    }
+    void AddHp(double i){
+        this.hp+=i;
     }
     public void SetType(String Type){
         this.type=Type;
@@ -22,6 +26,9 @@ public abstract class Building implements Attackable{
 
     void SetAttack(double Attack){
         this.attack=Attack;
+    }
+    void SetDamage(double damage){
+        this.damage=damage;
     }
     void SetStatus(boolean estado){
         this.status=estado;
@@ -41,6 +48,9 @@ public abstract class Building implements Attackable{
      */
     double getHP(){
         return hp;
+    }
+    double getMaxhp(){
+        return maxhp;
     }
 
     boolean getStatus(){
@@ -67,7 +77,12 @@ public abstract class Building implements Attackable{
     }
 
     public void receivedamagefromVillager(Villager U){
-        this.hp+=U.attack*0.3;
+        if (this.hp<=this.damage){
+            System.out.println("Unidad muerta, no puede ser revivida Hp"+this.hp+"Daño "+this.damage);
+        }
+        else{
+            this.damage-=U.attack*0.3;}
+
     }
     public void receivedamagefromSiege(Siege U){
         this.damage+=U.attack*2;

@@ -9,6 +9,7 @@ public class Castle extends Building implements Attackable {
         super();
         this.type = "Castle";
         this.attack=200;
+        this.hp=1000;
     }
     @Override
     public void attack(Unit U){

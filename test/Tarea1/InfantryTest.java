@@ -34,6 +34,11 @@ public class InfantryTest {
         Infante.SetHp(0);
         Infante.attack(Aldeano);
         assertEquals("Expects no damage,Fainted unit cant attack",0,Aldeano.getDamage(),0);
+        Infante.SetHp(hp);
+        Infante.SetDamage(hp);
+        Infante.attack(Asedio);
+        assertEquals("Expects no damage,Fainted unit cant attack",0,Asedio.getDamage(),0);
+
 
 
 

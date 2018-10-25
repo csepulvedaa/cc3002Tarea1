@@ -8,6 +8,7 @@ public class Infantry extends Unit implements Attacker {
     public Infantry() {
         super();
         this.type="Infantry";
+        this.hp=200;
     }
     //Override del metodo atacar para ser atacado por Infantry
     //Si la unidad no esta muerta, ataca

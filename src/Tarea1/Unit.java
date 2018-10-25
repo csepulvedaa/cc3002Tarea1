@@ -6,13 +6,14 @@ public abstract class Unit implements Attacker {
     protected double hp; //hp o puntos de vida
     protected double damage;// contador de daño recibido
     protected boolean status; //Estado de la unidad
+    protected double maxhp;// Valor maximo del estado de la unidad
     //METODOS
     public Unit (){
         this.type="unit";
         this.attack=200;
-        this.hp=200;
         this.damage=0;
         this.status=true;
+        this.maxhp=this.hp*2;
     }
 
     void SetHp(double i){
@@ -27,6 +28,9 @@ public abstract class Unit implements Attacker {
     }
     void SetStatus(boolean estado){
         this.status=estado;
+    }
+    void SetDamage(double damage){
+        this.damage=damage;
     }
 
     //Getter/
@@ -44,6 +48,9 @@ public abstract class Unit implements Attacker {
     protected double getHP(){
         return hp;
     }
+    protected double getmaxHP(){
+        return maxhp;
+    }
     //metodo para atacar por defecto
     public void attack(Unit U) {
         this.damage+=U.attack;
@@ -53,7 +60,7 @@ public abstract class Unit implements Attacker {
     }
 
     protected boolean getStatus(){
-        if (this.hp<=this.damage){
+        if ((this.hp<=this.damage) || (this.status=false)){
             this.status=false;
             return status;}
         else{
@@ -76,7 +83,12 @@ public abstract class Unit implements Attacker {
         this.damage+=U.attack;
     }
     public void receivedamagefromMonk(Monk U){
-        this.hp+=U.attack*0.5;}
+        if (this.hp<=this.damage){
+            System.out.println("Unidad muerta, no puede ser revivida Hp"+this.hp+"Daño "+this.damage);
+        }
+        else{
+        this.damage-=U.attack*0.5;}
+    }
     public void receivedamagefromVillager(Villager U){
         this.damage+=U.attack;}
     public void receivedamagefromSiege(Siege U){

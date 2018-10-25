@@ -14,6 +14,7 @@ public class Archer extends Unit implements Attacker {
     public  Archer(){
         super();
         this.type="Archer";
+        this.hp=200;
     }
     //Override para atacar de Archer, si esta vivo ataca
     @Override

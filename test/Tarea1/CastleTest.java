@@ -72,7 +72,12 @@ public class CastleTest {
     public void receivedamagefromVillager() {
         Aldeano.SetAttack(100);
         Aldeano.attack(Castillo);
-        assertEquals("Expected higher hp",1030,Castillo.getHP(),0);
+        assertEquals("Expected lower damage",-30,Castillo.getDamage(),0);
+        Castillo.SetHp(hp);
+        Castillo.SetDamage(hp);
+        Aldeano.attack(Castillo);
+        assertEquals("Expects no change in damage as castle is dead, Villager cant revive",hp,Castillo.getDamage(),0);
+
     }
 
     @Test
