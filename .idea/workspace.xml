@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="86db379a-b691-4f23-a469-db33c5c4c411" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tarea1/Archer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tarea1/Archer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tarea1/Attackable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tarea1/Attackable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Tarea1/Building.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tarea1/Building.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tarea1/Castle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tarea1/Castle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tarea1/Cavalry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tarea1/Cavalry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tarea1/Infantry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tarea1/Infantry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tarea1/Monk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tarea1/Monk.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tarea1/Siege.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tarea1/Siege.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tarea1/Unit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tarea1/Unit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tarea1/Villager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tarea1/Villager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Tarea1/BarrackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Tarea1/BarrackTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,7 +13,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/cc3002Tarea1$Tarea1_in_cc3002Tarea1.ic" NAME="Tarea1 in cc3002Tarea1 Coverage Results" MODIFIED="1540489582171" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/cc3002Tarea1$Tarea1_in_cc3002Tarea1.ic" NAME="Tarea1 in cc3002Tarea1 Coverage Results" MODIFIED="1540491406716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>Tarea1.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/cc3002Tarea1$SiegeTest.ic" NAME="SiegeTest Coverage Results" MODIFIED="1540479505651" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
@@ -56,23 +47,23 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="2" />
-          <entry key="java" value="45" />
+          <entry key="java" value="47" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="2" />
-          <entry key="JAVA" value="45" />
+          <entry key="JAVA" value="47" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="7418" />
+          <entry key="java" value="7529" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="7418" />
+          <entry key="JAVA" value="7529" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -86,7 +77,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Tarea1/Unit.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="463">
+            <state relative-caret-position="157">
               <caret line="85" column="21" selection-start-line="85" selection-start-column="21" selection-end-line="85" selection-end-column="21" />
               <folding>
                 <element signature="e#490#491#0" expanded="true" />
@@ -118,14 +109,18 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Tarea1/Building.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="76" column="19" selection-start-line="76" selection-start-column="19" selection-end-line="76" selection-end-column="19" />
+            <state relative-caret-position="242">
+              <caret line="84" column="59" selection-start-line="84" selection-start-column="59" selection-end-line="84" selection-end-column="59" />
               <folding>
                 <element signature="e#1709#1710#0" expanded="true" />
                 <element signature="e#1744#1745#0" expanded="true" />
+                <element signature="e#1785#1786#0" expanded="true" />
+                <element signature="e#1840#1841#0" expanded="true" />
+                <element signature="e#1900#1901#0" expanded="true" />
+                <element signature="e#1978#1979#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -134,8 +129,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Tarea1/Barrack.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+            <state relative-caret-position="95">
+              <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
               <folding>
                 <element signature="e#252#253#0" expanded="true" />
                 <element signature="e#275#276#0" expanded="true" />
@@ -144,11 +139,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/Tarea1/BarrackTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="84" selection-start-line="84" selection-end-line="84" />
+            <state relative-caret-position="230">
+              <caret line="41" column="76" selection-start-line="41" selection-start-column="76" selection-end-line="41" selection-end-column="76" />
             </state>
           </provider>
         </entry>
@@ -204,8 +199,8 @@
         <option value="$PROJECT_DIR$/src/Tarea1/Barracks.java" />
         <option value="$PROJECT_DIR$/test/Tarea1/CastleTest.java" />
         <option value="$PROJECT_DIR$/src/Tarea1/Barrack.java" />
-        <option value="$PROJECT_DIR$/test/Tarea1/BarrackTest.java" />
         <option value="$PROJECT_DIR$/src/Tarea1/Building.java" />
+        <option value="$PROJECT_DIR$/test/Tarea1/BarrackTest.java" />
       </list>
     </option>
   </component>
@@ -215,7 +210,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="15" />
     <option name="y" value="30" />
     <option name="width" value="1890" />
@@ -283,7 +278,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540489581922" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540491406547" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="true" />
@@ -331,6 +326,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BarrackTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cc3002Tarea1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tarea1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tarea1" />
+      <option name="MAIN_CLASS_NAME" value="Tarea1.BarrackTest" />
+      <option name="METHOD_NAME" value="testStatus" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BarrackTest.testStatus" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cc3002Tarea1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tarea1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tarea1" />
+      <option name="MAIN_CLASS_NAME" value="Tarea1.BarrackTest" />
+      <option name="METHOD_NAME" value="testStatus" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="InfantryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="cc3002Tarea1" />
       <extension name="coverage">
@@ -341,20 +367,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="Tarea1" />
       <option name="MAIN_CLASS_NAME" value="Tarea1.InfantryTest" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SiegeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="cc3002Tarea1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Tarea1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Tarea1" />
-      <option name="MAIN_CLASS_NAME" value="Tarea1.SiegeTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -376,15 +388,17 @@
     <list>
       <item itemvalue="Cucumber java.All Features in: test" />
       <item itemvalue="JUnit.InfantryTest" />
-      <item itemvalue="JUnit.SiegeTest" />
       <item itemvalue="JUnit.Tarea1 in cc3002Tarea1" />
+      <item itemvalue="JUnit.BarrackTest.testStatus" />
+      <item itemvalue="JUnit.BarrackTest" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.Tarea1 in cc3002Tarea1" />
+        <item itemvalue="JUnit.BarrackTest" />
+        <item itemvalue="JUnit.BarrackTest.testStatus" />
         <item itemvalue="Cucumber java.All Features in: test" />
         <item itemvalue="JUnit.InfantryTest" />
-        <item itemvalue="JUnit.SiegeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -401,44 +415,44 @@
       <workItem from="1540429316055" duration="597000" />
       <workItem from="1540429942166" duration="21374000" />
       <workItem from="1540479397585" duration="1544000" />
-      <workItem from="1540481273727" duration="6504000" />
+      <workItem from="1540481273727" duration="8934000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Tarea1_in_cc3002Tarea1 - 2018.10.25 at 11h 58m 50s.xml">
-      <configuration name="Tarea1 in cc3002Tarea1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Tarea1_in_cc3002Tarea1 - 2018.10.25 at 12h 13m 32s.xml">
-      <configuration name="Tarea1 in cc3002Tarea1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Tarea1_in_cc3002Tarea1 - 2018.10.25 at 14h 03m 01s.xml">
-      <configuration name="Tarea1 in cc3002Tarea1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Tarea1_in_cc3002Tarea1 - 2018.10.25 at 14h 06m 57s.xml">
-      <configuration name="Tarea1 in cc3002Tarea1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Tarea1_in_cc3002Tarea1 - 2018.10.25 at 14h 07m 31s.xml">
-      <configuration name="Tarea1 in cc3002Tarea1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Tarea1_in_cc3002Tarea1 - 2018.10.25 at 14h 09m 19s.xml">
-      <configuration name="Tarea1 in cc3002Tarea1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_Features_in__test - 2018.10.25 at 14h 10m 13s.xml">
-      <configuration name="All Features in: test" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Tarea1_in_cc3002Tarea1 - 2018.10.25 at 14h 10m 30s.xml">
-      <configuration name="Tarea1 in cc3002Tarea1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Tarea1_in_cc3002Tarea1 - 2018.10.25 at 14h 43m 05s.xml">
-      <configuration name="Tarea1 in cc3002Tarea1" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Tarea1_in_cc3002Tarea1 - 2018.10.25 at 14h 44m 56s.xml">
+      <configuration name="Tarea1 in cc3002Tarea1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Tarea1_in_cc3002Tarea1 - 2018.10.25 at 14h 46m 07s.xml">
+      <configuration name="Tarea1 in cc3002Tarea1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Tarea1_in_cc3002Tarea1 - 2018.10.25 at 14h 46m 24s.xml">
+      <configuration name="Tarea1 in cc3002Tarea1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Tarea1_in_cc3002Tarea1 - 2018.10.25 at 15h 12m 31s.xml">
+      <configuration name="Tarea1 in cc3002Tarea1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Tarea1_in_cc3002Tarea1 - 2018.10.25 at 15h 13m 00s.xml">
+      <configuration name="Tarea1 in cc3002Tarea1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BarrackTest_testStatus - 2018.10.25 at 15h 13m 13s.xml">
+      <configuration name="BarrackTest.testStatus" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BarrackTest - 2018.10.25 at 15h 14m 57s.xml">
+      <configuration name="BarrackTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BarrackTest - 2018.10.25 at 15h 15m 14s.xml">
+      <configuration name="BarrackTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BarrackTest - 2018.10.25 at 15h 16m 38s.xml">
+      <configuration name="BarrackTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Tarea1_in_cc3002Tarea1 - 2018.10.25 at 15h 16m 48s.xml">
       <configuration name="Tarea1 in cc3002Tarea1" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30019000" />
+    <option name="totallyTimeSpent" value="32449000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -453,7 +467,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4128114" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.4128114" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -463,7 +477,7 @@
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.3291815" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32740214" />
-      <window_info anchor="right" id="Coverage" order="0" side_tool="true" weight="0.297166" />
+      <window_info active="true" anchor="right" id="Coverage" order="0" side_tool="true" visible="true" weight="0.297166" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
@@ -527,13 +541,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tarea1/Attacker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/Tarea1/InfantryTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-316">
@@ -541,13 +548,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tarea1/Attackable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="48" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
         </state>
       </provider>
     </entry>
@@ -592,9 +592,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tarea1/Villager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-234">
+          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+          <folding>
+            <element signature="e#732#733#0" expanded="true" />
+            <element signature="e#780#781#0" expanded="true" />
+            <element signature="e#845#846#0" expanded="true" />
+            <element signature="e#893#894#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/Tarea1/CastleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="534">
+          <caret line="51" column="31" lean-forward="true" selection-start-line="51" selection-start-column="31" selection-end-line="51" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tarea1/Castle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tarea1/Attacker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tarea1/Attackable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="48" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Tarea1/Unit.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="463">
+        <state relative-caret-position="157">
           <caret line="85" column="21" selection-start-line="85" selection-start-column="21" selection-end-line="85" selection-end-column="21" />
           <folding>
             <element signature="e#490#491#0" expanded="true" />
@@ -625,30 +666,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tarea1/Villager.java">
+    <entry file="file://$PROJECT_DIR$/src/Tarea1/Building.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-234">
-          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+        <state relative-caret-position="242">
+          <caret line="84" column="59" selection-start-line="84" selection-start-column="59" selection-end-line="84" selection-end-column="59" />
           <folding>
-            <element signature="e#732#733#0" expanded="true" />
-            <element signature="e#780#781#0" expanded="true" />
-            <element signature="e#845#846#0" expanded="true" />
-            <element signature="e#893#894#0" expanded="true" />
+            <element signature="e#1709#1710#0" expanded="true" />
+            <element signature="e#1744#1745#0" expanded="true" />
+            <element signature="e#1785#1786#0" expanded="true" />
+            <element signature="e#1840#1841#0" expanded="true" />
+            <element signature="e#1900#1901#0" expanded="true" />
+            <element signature="e#1978#1979#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/Tarea1/CastleTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="534">
-          <caret line="51" column="31" lean-forward="true" selection-start-line="51" selection-start-column="31" selection-end-line="51" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Tarea1/Barrack.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+        <state relative-caret-position="95">
+          <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
           <folding>
             <element signature="e#252#253#0" expanded="true" />
             <element signature="e#275#276#0" expanded="true" />
@@ -658,26 +694,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/Tarea1/BarrackTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="84" selection-start-line="84" selection-end-line="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tarea1/Castle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tarea1/Building.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="76" column="19" selection-start-line="76" selection-start-column="19" selection-end-line="76" selection-end-column="19" />
-          <folding>
-            <element signature="e#1709#1710#0" expanded="true" />
-            <element signature="e#1744#1745#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="230">
+          <caret line="41" column="76" selection-start-line="41" selection-start-column="76" selection-end-line="41" selection-end-column="76" />
         </state>
       </provider>
     </entry>

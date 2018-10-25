@@ -27,17 +27,19 @@ public class BarrackTest {
         hp=200;
         damage=0;
     }
+    @Test
     public void testStatus(){
         //iguala hp al daño, condicion de debilitar unidad
         Barraca.SetHp(0);
-        assertFalse("Expects Unit dead",Castillo.getStatus());
+        assertFalse("Expects Unit dead",Barraca.getStatus());
         //Setea HP>DAMAGE, Unidad esta vivas
         Barraca.SetHp(hp);
         assertTrue("Expects Unit Alive (hp>damage)",Infante.getStatus());
         Barraca.SetAttack(100);
         Barraca.attack(Aldeano);
-        assertEquals("Expects no damage,Fainted unit cant attack",0,Aldeano.getDamage(),0);
-
+        Barraca.attack(Castillo);
+        assertEquals("Expects no damage,Barrack unit cant attack",0,Aldeano.getDamage(),0);
+        assertEquals("Expects no damage,Barrack unit cant attack",0,Castillo.getDamage(),0);
     }
     //Repara la unidad
     @Test

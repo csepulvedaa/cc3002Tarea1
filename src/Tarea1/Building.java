@@ -78,6 +78,10 @@ public abstract class Building implements Attackable{
     }
 
 
-    public  void attack(Unit U){};
-    public  void attack(Building B){};
+    public  void attack(Unit U){
+        System.out.println("Unidad del thipo "+this.type+" cant attack");
+    }
+    public  void attack(Building B){
+        System.out.println("Unidad del thipo "+this.type+" cant attack");
+    }
 }
