@@ -1,6 +1,7 @@
 package Tarea1;
 
 public interface Attacker {
+    public void attack(Unit u);
     public void receivedamagefromInfantry(Infantry U);
     public void receivedamagefromArcher(Archer U);
     public void receivedamagefromCavalry(Cavalry U);

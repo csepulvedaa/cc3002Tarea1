@@ -8,8 +8,7 @@ package Tarea1;
 public class Siege extends Unit implements Attacker {
     public Siege(){
         super();
-        this.type="Siege";
-        this.status=true;}
+        this.type="Siege";}
 
     @Override
     public void attack(Unit U){
@@ -26,6 +25,7 @@ public class Siege extends Unit implements Attacker {
     }
     @Override
     public void receivedamagefromCavalry(Cavalry U){
+
         this.damage+=(U.getAttack()*1.2);
     }
     public void receivedamagefromSiege(Siege U){
@@ -41,8 +41,14 @@ public class Siege extends Unit implements Attacker {
 
     @Override
     public void receivedamagefromVillager(Villager U ){
-        this.SetHp(U.getAttack());
+        this.hp+=(U.getAttack()*0.5);
     }
+    //Monje no hace daño a barraca
+    @Override
+    public void receivedamagefromMonk(Monk M ){
+        System.out.println("Wololo");
+    }
+
 }
 
 

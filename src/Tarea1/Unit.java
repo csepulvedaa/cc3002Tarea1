@@ -69,7 +69,7 @@ public abstract class Unit implements Attacker {
         this.damage+=U.attack;
     }
     public void receivedamagefromMonk(Monk U){
-        this.hp+=U.attack;}
+        this.hp+=U.attack*0.5;}
     public void receivedamagefromVillager(Villager U){
         this.damage+=U.attack;}
     public void receivedamagefromSiege(Siege U){
