@@ -28,10 +28,12 @@ public abstract class Unit implements Attacker {
     public void SetStatus(boolean estado){
         this.status=estado;
     }
-    public void SetDamage(double hit){
-        this.damage=hit;
-    }
+
     //Getter/
+
+    public double getDamage(){
+        return this.damage;
+    }
     public double getAttack(){
         return attack;
     }
@@ -42,13 +44,8 @@ public abstract class Unit implements Attacker {
     public double getHP(){
         return hp;
     }
-    //metodo para atacar, debo revisar por que uso el ataque
-    //mayor a 20
-    public void attack(Unit U) {
-        if (this.getStatus()==false) {
-            System.out.println("Unidad Debilitada,no puede atacar");}
-        //si el ataque es menor a 20 no se hace nada(?), por que
-        else{this.damage+=U.attack;}}
+    //metodo para atacar por defecto
+    public void attack(Unit U) { this.damage+=U.attack;}
 
     public  boolean getStatus(){
         if (this.hp<=this.damage){
@@ -59,22 +56,23 @@ public abstract class Unit implements Attacker {
                 return status;}};
 
 
-    public void recievedamagefromInfantry(Unit U){
+    public void receivedamagefromInfantry(Infantry U)
+    {
         this.damage+=U.attack;
     }
-    public void recievedamagefromArcher(Unit U){
+    public void receivedamagefromArcher(Archer U){
         this.damage+=U.attack;
 
     }
-    public void recievedamagefromCavalry(Unit U){
+    public void receivedamagefromCavalry(Cavalry U){
 
         this.damage+=U.attack;
     }
-    public void recievedamagefromMonk(Unit U){
+    public void receivedamagefromMonk(Monk U){
+        this.hp+=U.attack;}
+    public void receivedamagefromVillager(Villager U){
         this.damage+=U.attack;}
-    public void recievedamagefromVillager(Unit U){
-        this.damage+=U.attack;}
-    public void recievedamagefromSiege(Unit U){
+    public void receivedamagefromSiege(Siege U){
         this.damage+=U.attack;}
 
 
