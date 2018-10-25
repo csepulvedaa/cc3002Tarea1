@@ -4,15 +4,14 @@
     <list default="true" id="86db379a-b691-4f23-a469-db33c5c4c411" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/cc3002Tarea1/Tarea1/Attacker.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/cc3002Tarea1/Tarea1/Attacker.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/cc3002Tarea1/Tarea1/Cavalry.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/cc3002Tarea1/Tarea1/Cavalry.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/cc3002Tarea1/Tarea1/Monk.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/cc3002Tarea1/Tarea1/Monk.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/cc3002Tarea1/Tarea1/Siege.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/cc3002Tarea1/Tarea1/Siege.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/cc3002Tarea1/Tarea1/Unit.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/cc3002Tarea1/Tarea1/Unit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/cc3002Tarea1/Tarea1/Villager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/cc3002Tarea1/Tarea1/Villager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/cc3002Tarea1/Tarea1/SiegeTest.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Tarea1/Attacker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tarea1/Attacker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tarea1/Cavalry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tarea1/Cavalry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tarea1/Monk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tarea1/Monk.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Tarea1/Siege.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tarea1/Siege.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Tarea1/Unit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tarea1/Unit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tarea1/Villager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tarea1/Villager.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,7 +21,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/cc3002Tarea1$Tarea1_in_cc3002Tarea1.ic" NAME="Tarea1 in cc3002Tarea1 Coverage Results" MODIFIED="1540447584853" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/cc3002Tarea1$Tarea1_in_cc3002Tarea1.ic" NAME="Tarea1 in cc3002Tarea1 Coverage Results" MODIFIED="1540450826377" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>Tarea1.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/cc3002Tarea1$All_Features_in__test.ic" NAME="All Features in: test Coverage Results" MODIFIED="1540446616086" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
@@ -39,13 +38,13 @@
     <option name="myAddOrReplace" value="0" />
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="88" />
+    <option name="myElementSize" value="98" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-499148043">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.opened" value="2" />
@@ -54,23 +53,23 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="2" />
-          <entry key="java" value="17" />
+          <entry key="java" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="2" />
-          <entry key="JAVA" value="17" />
+          <entry key="JAVA" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="4811" />
+          <entry key="java" value="5504" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4811" />
+          <entry key="JAVA" value="5504" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -84,36 +83,62 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Tarea1/Unit.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-460">
-              <caret line="34" column="23" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
+            <state relative-caret-position="93">
+              <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
               <folding>
+                <element signature="e#498#499#0" expanded="true" />
+                <element signature="e#523#524#0" expanded="true" />
                 <element signature="e#792#793#0" expanded="true" />
                 <element signature="e#826#827#0" expanded="true" />
                 <element signature="e#857#858#0" expanded="true" />
                 <element signature="e#886#887#0" expanded="true" />
                 <element signature="e#986#987#0" expanded="true" />
                 <element signature="e#1011#1012#0" expanded="true" />
-                <element signature="e#1381#1382#0" expanded="true" />
-                <element signature="e#1418#1419#0" expanded="true" />
+                <element signature="e#1054#1055#0" expanded="true" />
+                <element signature="e#1091#1092#0" expanded="true" />
+                <element signature="e#1385#1386#0" expanded="true" />
+                <element signature="e#1422#1423#0" expanded="true" />
+                <element signature="e#1817#1818#0" expanded="true" />
+                <element signature="e#1854#1855#0" expanded="true" />
+                <element signature="e#1905#1906#0" expanded="true" />
+                <element signature="e#1946#1947#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Tarea1/Building.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-204">
+              <caret lean-forward="true" />
+              <folding>
+                <element signature="e#486#487#0" expanded="true" />
+                <element signature="e#511#512#0" expanded="true" />
+                <element signature="e#767#768#0" expanded="true" />
+                <element signature="e#801#802#0" expanded="true" />
+                <element signature="e#833#834#0" expanded="true" />
+                <element signature="e#862#863#0" expanded="true" />
+                <element signature="e#955#956#0" expanded="true" />
+                <element signature="e#980#981#0" expanded="true" />
+                <element signature="e#1308#1309#0" expanded="true" />
+                <element signature="e#1333#1334#0" expanded="true" />
+                <element signature="e#518#519#0" expanded="true" />
+                <element signature="e#555#556#0" expanded="true" />
+                <element signature="e#797#798#0" expanded="true" />
+                <element signature="e#834#835#0" expanded="true" />
+                <element signature="e#952#953#0" expanded="true" />
+                <element signature="e#989#990#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/Tarea1/SiegeTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="64" column="43" selection-start-line="64" selection-start-column="43" selection-end-line="64" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Tarea1/Cavalry.java">
+        <entry file="file://$PROJECT_DIR$/src/Tarea1/Attacker.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
-              <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+              <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -121,8 +146,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Tarea1/Infantry.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="23" column="31" lean-forward="true" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+            <state relative-caret-position="119">
+              <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Tarea1/Attackable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Tarea1/Castle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -130,8 +173,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/Tarea1/InfantryTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+            <state relative-caret-position="119">
+              <caret line="35" column="43" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -139,11 +182,26 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Tarea1/Villager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="26" column="13" lean-forward="true" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+              <folding>
+                <element signature="e#732#733#0" expanded="true" />
+                <element signature="e#780#781#0" expanded="true" />
+                <element signature="e#845#846#0" expanded="true" />
+                <element signature="e#893#894#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Tarea1/Siege.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="43" column="35" selection-start-line="43" selection-start-column="35" selection-end-line="43" selection-end-column="35" />
+            <state relative-caret-position="110">
+              <caret line="42" column="34" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
               <folding>
                 <element signature="e#871#872#0" expanded="true" />
                 <element signature="e#919#920#0" expanded="true" />
@@ -154,22 +212,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Tarea1/Attacker.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -180,16 +230,19 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/test1/Tarea1/InfantryTest.java" />
-        <option value="$PROJECT_DIR$/src/Tarea1/Villager.java" />
         <option value="$PROJECT_DIR$/src/Tarea1/Archer.java" />
         <option value="$PROJECT_DIR$/src/Tarea1/Infantry.java" />
         <option value="$PROJECT_DIR$/src/Tarea1/Cavalry.java" />
-        <option value="$PROJECT_DIR$/src/Tarea1/Attacker.java" />
         <option value="$PROJECT_DIR$/src/Tarea1/Monk.java" />
+        <option value="$PROJECT_DIR$/test/Tarea1/SiegeTest.java" />
+        <option value="$PROJECT_DIR$/src/Tarea1/Villager.java" />
+        <option value="$PROJECT_DIR$/src/Tarea1/Siege.java" />
+        <option value="$PROJECT_DIR$/src/Tarea1/Attacker.java" />
+        <option value="$PROJECT_DIR$/src/Tarea1/Attackable.java" />
+        <option value="$PROJECT_DIR$/src/Tarea1/Castle.java" />
         <option value="$PROJECT_DIR$/test/Tarea1/InfantryTest.java" />
         <option value="$PROJECT_DIR$/src/Tarea1/Unit.java" />
-        <option value="$PROJECT_DIR$/test/Tarea1/SiegeTest.java" />
-        <option value="$PROJECT_DIR$/src/Tarea1/Siege.java" />
+        <option value="$PROJECT_DIR$/src/Tarea1/Building.java" />
       </list>
     </option>
   </component>
@@ -267,7 +320,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540447582683" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540451393564" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="true" />
@@ -366,8 +419,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.Tarea1 in cc3002Tarea1" />
-        <item itemvalue="JUnit.SiegeTest" />
         <item itemvalue="Cucumber java.All Features in: test" />
+        <item itemvalue="JUnit.SiegeTest" />
         <item itemvalue="JUnit.InfantryTest" />
       </list>
     </recent_temporary>
@@ -383,51 +436,50 @@
       <option name="presentableId" value="Default" />
       <updated>1540429314654</updated>
       <workItem from="1540429316055" duration="597000" />
-      <workItem from="1540429942166" duration="17440000" />
+      <workItem from="1540429942166" duration="21374000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SiegeTest - 2018.10.25 at 02h 41m 39s.xml">
-      <configuration name="SiegeTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SiegeTest - 2018.10.25 at 02h 46m 50s.xml">
-      <configuration name="SiegeTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SiegeTest - 2018.10.25 at 02h 48m 32s.xml">
-      <configuration name="SiegeTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_Features_in__test - 2018.10.25 at 02h 50m 21s.xml">
-      <configuration name="All Features in: test" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="SiegeTest - 2018.10.25 at 02h 51m 34s.xml">
-      <configuration name="SiegeTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Tarea1_in_cc3002Tarea1 - 2018.10.25 at 02h 51m 56s.xml">
-      <configuration name="Tarea1 in cc3002Tarea1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SiegeTest - 2018.10.25 at 02h 59m 10s.xml">
-      <configuration name="SiegeTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SiegeTest - 2018.10.25 at 02h 59m 43s.xml">
-      <configuration name="SiegeTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SiegeTest - 2018.10.25 at 03h 01m 55s.xml">
-      <configuration name="SiegeTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SiegeTest - 2018.10.25 at 03h 02m 47s.xml">
       <configuration name="SiegeTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="SiegeTest - 2018.10.25 at 03h 04m 52s.xml">
+      <configuration name="SiegeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Tarea1_in_cc3002Tarea1 - 2018.10.25 at 03h 05m 31s.xml">
+      <configuration name="Tarea1 in cc3002Tarea1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Tarea1_in_cc3002Tarea1 - 2018.10.25 at 03h 06m 31s.xml">
+      <configuration name="Tarea1 in cc3002Tarea1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_Features_in__test - 2018.10.25 at 04h 00m 10s.xml">
+      <configuration name="All Features in: test" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Tarea1_in_cc3002Tarea1 - 2018.10.25 at 04h 00m 28s.xml">
+      <configuration name="Tarea1 in cc3002Tarea1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Tarea1_in_cc3002Tarea1 - 2018.10.25 at 04h 01m 41s.xml">
+      <configuration name="Tarea1 in cc3002Tarea1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Tarea1_in_cc3002Tarea1 - 2018.10.25 at 04h 02m 13s.xml">
+      <configuration name="Tarea1 in cc3002Tarea1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Tarea1_in_cc3002Tarea1 - 2018.10.25 at 04h 06m 12s.xml">
+      <configuration name="Tarea1 in cc3002Tarea1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Tarea1_in_cc3002Tarea1 - 2018.10.25 at 04h 09m 56s.xml">
+      <configuration name="Tarea1 in cc3002Tarea1" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18037000" />
+    <option name="totallyTimeSpent" value="21971000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2534413" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49822065" visible="true" weight="0.2534413" />
+      <window_info id="Structure" order="1" sideWeight="0.5017794" side_tool="true" weight="0.2534413" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -435,7 +487,38 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4128114" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4128114" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3291815" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32740214" />
+      <window_info anchor="right" id="Coverage" order="0" side_tool="true" visible="true" weight="0.297166" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Maven Projects" order="9" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49822065" visible="true" weight="0.2534413" />
+      <window_info id="Structure" order="1" sideWeight="0.5017794" side_tool="true" visible="true" weight="0.2534413" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4128114" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -455,7 +538,7 @@
       <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Maven Projects" order="9" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -488,23 +571,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tarea1/Villager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="24" column="41" lean-forward="true" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
-          <folding>
-            <element signature="e#746#747#0" expanded="true" />
-            <element signature="e#795#796#0" expanded="true" />
-            <element signature="e#860#861#0" expanded="true" />
-            <element signature="e#909#910#0" expanded="true" />
-            <element signature="e#976#977#0" expanded="true" />
-            <element signature="e#1025#1026#0" expanded="true" />
-            <element signature="e#1088#1089#0" expanded="true" />
-            <element signature="e#1137#1138#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Tarea1/Monk.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -512,30 +578,6 @@
           <folding>
             <element signature="e#87#88#0" expanded="true" />
             <element signature="e#119#120#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tarea1/Attacker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tarea1/Infantry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="23" column="31" lean-forward="true" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/Tarea1/InfantryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -549,8 +591,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/Tarea1/SiegeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="64" column="43" selection-start-line="64" selection-start-column="43" selection-end-line="64" selection-end-column="43" />
+        <state relative-caret-position="213">
+          <caret line="65" column="53" selection-start-line="65" selection-start-column="53" selection-end-line="65" selection-end-column="53" />
         </state>
       </provider>
     </entry>
@@ -561,32 +603,116 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tarea1/Siege.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="42" column="34" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
+          <folding>
+            <element signature="e#871#872#0" expanded="true" />
+            <element signature="e#919#920#0" expanded="true" />
+            <element signature="e#1321#1322#0" expanded="true" />
+            <element signature="e#1365#1366#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tarea1/Villager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="26" column="13" lean-forward="true" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+          <folding>
+            <element signature="e#732#733#0" expanded="true" />
+            <element signature="e#780#781#0" expanded="true" />
+            <element signature="e#845#846#0" expanded="true" />
+            <element signature="e#893#894#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tarea1/Attackable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tarea1/Attacker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tarea1/Infantry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/Tarea1/InfantryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="35" column="43" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Tarea1/Unit.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-460">
-          <caret line="34" column="23" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
+        <state relative-caret-position="93">
+          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
           <folding>
+            <element signature="e#498#499#0" expanded="true" />
+            <element signature="e#523#524#0" expanded="true" />
             <element signature="e#792#793#0" expanded="true" />
             <element signature="e#826#827#0" expanded="true" />
             <element signature="e#857#858#0" expanded="true" />
             <element signature="e#886#887#0" expanded="true" />
             <element signature="e#986#987#0" expanded="true" />
             <element signature="e#1011#1012#0" expanded="true" />
-            <element signature="e#1381#1382#0" expanded="true" />
-            <element signature="e#1418#1419#0" expanded="true" />
+            <element signature="e#1054#1055#0" expanded="true" />
+            <element signature="e#1091#1092#0" expanded="true" />
+            <element signature="e#1385#1386#0" expanded="true" />
+            <element signature="e#1422#1423#0" expanded="true" />
+            <element signature="e#1817#1818#0" expanded="true" />
+            <element signature="e#1854#1855#0" expanded="true" />
+            <element signature="e#1905#1906#0" expanded="true" />
+            <element signature="e#1946#1947#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tarea1/Siege.java">
+    <entry file="file://$PROJECT_DIR$/src/Tarea1/Castle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="43" column="35" selection-start-line="43" selection-start-column="35" selection-end-line="43" selection-end-column="35" />
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tarea1/Building.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-204">
+          <caret lean-forward="true" />
           <folding>
-            <element signature="e#871#872#0" expanded="true" />
-            <element signature="e#919#920#0" expanded="true" />
-            <element signature="e#1321#1322#0" expanded="true" />
-            <element signature="e#1365#1366#0" expanded="true" />
+            <element signature="e#486#487#0" expanded="true" />
+            <element signature="e#511#512#0" expanded="true" />
+            <element signature="e#767#768#0" expanded="true" />
+            <element signature="e#801#802#0" expanded="true" />
+            <element signature="e#833#834#0" expanded="true" />
+            <element signature="e#862#863#0" expanded="true" />
+            <element signature="e#955#956#0" expanded="true" />
+            <element signature="e#980#981#0" expanded="true" />
+            <element signature="e#1308#1309#0" expanded="true" />
+            <element signature="e#1333#1334#0" expanded="true" />
+            <element signature="e#518#519#0" expanded="true" />
+            <element signature="e#555#556#0" expanded="true" />
+            <element signature="e#797#798#0" expanded="true" />
+            <element signature="e#834#835#0" expanded="true" />
+            <element signature="e#952#953#0" expanded="true" />
+            <element signature="e#989#990#0" expanded="true" />
           </folding>
         </state>
       </provider>

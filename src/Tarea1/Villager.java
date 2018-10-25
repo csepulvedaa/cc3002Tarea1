@@ -31,10 +31,12 @@ public class Villager extends Unit implements Attacker {
     @Override
     public void receivedamagefromCavalry(Cavalry U){
         this.damage+=(U.getAttack()*1.5);
+
     }
     @Override
     public void receivedamagefromSiege(Siege U){
         this.damage+=(U.getAttack()*1.5);
+
     }
 
 

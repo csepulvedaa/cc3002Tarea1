@@ -37,6 +37,12 @@ public class Siege extends Unit implements Attacker {
 
         this.damage+=(U.getAttack()*0.8);
     }
+    //Ataca menos que una unidad normal
+    public void receivedamagefromCastle(Castle U){
+
+        this.damage+=U.attack*0.5;
+    }
+
     // Aldeano repara la unidad
 
     @Override
