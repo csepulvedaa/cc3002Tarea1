@@ -1,4 +1,11 @@
 package Tarea1;
+/**
+ * Clase Barrack , extends Building abstract class la cual es una unidad de tipo  Barrack
+ * Impements Interface Attackable
+ * @version Octubre 2018
+ * @author csepu
+ *
+ */
 
 public class Barrack extends Building implements Attackable{
     public Barrack() {

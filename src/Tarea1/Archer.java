@@ -1,7 +1,4 @@
 package Tarea1;
-
-import javafx.scene.shape.Arc;
-
 /**
  * Clase Archer, extends Unit abstract class la cual es una unidad de tipo archer
  * Impements Interface Attacker

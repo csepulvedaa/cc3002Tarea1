@@ -1,5 +1,4 @@
 package Tarea1;
-
 /**Clase constructora base para crear cualquier tipo de Building
  * Se definen los metodos para construir una unidad por defecto
  * @author csepu

@@ -1,9 +1,11 @@
 package Tarea1;
-
 /**
- * Crea un building de tipo Castle
+ * Clase Castle, extends Building abstract class la cual es una unidad de tipo Castle
+ * Impements Interface Attackable
+ * @version Octubre 2018
+ * @author csepu
+ *
  */
-
 public class Castle extends Building implements Attackable {
     public Castle() {
         super();

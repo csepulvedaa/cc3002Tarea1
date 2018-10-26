@@ -1,4 +1,11 @@
 package Tarea1;
+/**
+ * Clase Monk, extends Unit abstract class la cual es una unidad de tipo Monk
+ * Impements Interface Attacker
+ * @version Octubre 2018
+ * @author csepu
+ *
+ */
 
 public class Monk extends Unit implements Attacker {
     public Monk(){

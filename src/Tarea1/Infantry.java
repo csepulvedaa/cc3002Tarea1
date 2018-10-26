@@ -2,6 +2,8 @@ package Tarea1;
 /**
  * Crea una unidad de tipo Infantry, establece los mismos valores por defecto que la clase unit
  * Llamada super y modifica el tipo a infantry
+ * @author csepu
+ * @version octubre 2018
  */
 public class Infantry extends Unit implements Attacker {
 
