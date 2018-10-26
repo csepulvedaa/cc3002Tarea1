@@ -55,7 +55,7 @@ public abstract class Unit implements Attacker {
     }
 
     /**
-     * Asigna el Dalo que tendrá la unidad
+     * Asigna el Daño que tendrá la unidad
      * @param damage Daño de la unidad
      */
     void SetDamage(double damage){
