@@ -26,6 +26,15 @@ public class SiegeTest {
         damage=0;
     }
     @Test
+    public void testGS(){
+        Asedio.SetStatus(true);
+        assertTrue("Estado vivo",Asedio.getStatus());
+        Asedio.SetType(type);
+        assertEquals("Tipo infate",Asedio.type,type);
+        Asedio.SetAttack(attack);
+        assertEquals("Igual ataque",Asedio.attack,attack,0);
+    }
+    @Test
     public void teststatus(){
         Asedio.SetHp(0);
         assertFalse("Expects Unit dead",Asedio.getStatus());

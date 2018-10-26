@@ -28,6 +28,16 @@ public class BarrackTest {
         damage=0;
     }
     @Test
+    public void testGetSet(){
+        Barraca.SetStatus(true);
+        assertTrue("Estado vivo",Barraca.getStatus());
+        Barraca.SetType(type);
+        assertEquals("Tipo infate",Barraca.type,type);
+        Barraca.SetAttack(attack);
+        assertEquals("Igual ataque",Barraca.attack,attack,0);
+
+    }
+    @Test
     public void testStatus(){
         //iguala hp al daño, condicion de debilitar unidad
         Barraca.SetHp(0);

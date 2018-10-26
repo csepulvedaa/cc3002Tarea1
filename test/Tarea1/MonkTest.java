@@ -26,13 +26,14 @@ public class MonkTest {
         hp=100;
         attack=50;
         damage=0;}
-
     @Test
     public void testGS(){
         Monje.SetStatus(true);
         assertTrue("Estado vivo",Monje.getStatus());
         Monje.SetType(type);
-        assertEquals("Tipo Monje",Monje.type,type);
+        assertEquals("Tipo infate",Monje.type,type);
+        Monje.SetAttack(attack);
+        assertEquals("Igual ataque",Monje.attack,attack,0);
     }
     @Test
     public void tesStatus() {

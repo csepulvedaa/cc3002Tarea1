@@ -21,10 +21,21 @@ public class ArcherTest {
         Arquero = new Archer();
         Arquero2 = new Archer();
         Asedio = new Siege();
-        type="Infantry";
+        type="Archer";
         hp=100;
         attack=50;
         damage=0;}
+
+    @Test
+    public void testGetSet(){
+        Arquero.SetStatus(true);
+        assertTrue("Estado vivo",Arquero.getStatus());
+        Arquero.SetType(type);
+        assertEquals("Tipo infate",Arquero.type,type);
+        Arquero.SetAttack(attack);
+        assertEquals("Igual ataque",Arquero.attack,attack,0);
+
+    }
     @Test
     public void testStatus(){
         //iguala hp al daño, condicion de debilitar unidad
@@ -42,7 +53,8 @@ public class ArcherTest {
         assertEquals("Expects no damage,Fainted unit cant attack",0,Infante.getDamage(),0);
     }
     @Test
-    public void receivedamagefromInfantry() {Infante.SetAttack(30);
+    public void receivedamagefromInfantry() {
+        Infante.SetAttack(30);
         Infante.attack(Arquero);
         assertEquals("Expect higher damage",36,Arquero.getDamage(),0);
     }

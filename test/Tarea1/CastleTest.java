@@ -32,6 +32,18 @@ public class CastleTest {
         assertTrue("Estado vivo",Castillo.getStatus());
         Castillo.SetType(type);
         assertEquals("Tipo Monje",Castillo.type,type);
+        Castillo.SetAttack(attack);
+        assertEquals("Igual ataque",Castillo.attack,attack,0);
+    }
+    @Test
+    public void testGetSet(){
+        Castillo.SetStatus(true);
+        assertTrue("Estado vivo",Castillo.getStatus());
+        Castillo.SetType(type);
+        assertEquals("Tipo infate",Castillo.type,type);
+        Castillo.SetAttack(attack);
+        assertEquals("Igual ataque",Castillo.attack,attack,0);
+
     }
     @Test
     public void testStatus(){
@@ -56,9 +68,9 @@ public class CastleTest {
 
     @Test
     public void receivedamagefromArcher() {
-        Infante.SetAttack(100);
-        Infante.attack(Castillo);
-        assertEquals("Expected lower damage",30,Castillo.getDamage(),0);
+        Arquero.SetAttack(100);
+        Arquero.attack(Castillo);
+        assertEquals("Expected lower damage",10,Castillo.getDamage(),0);
     }
 
     @Test

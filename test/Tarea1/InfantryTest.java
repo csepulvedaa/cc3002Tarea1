@@ -29,6 +29,8 @@ public class InfantryTest {
         assertTrue("Estado vivo",Infante.getStatus());
         Infante.SetType(type);
         assertEquals("Tipo infate",Infante.type,type);
+        Infante.SetAttack(attack);
+        assertEquals("Igual ataque",Infante.attack,attack,0);
     }
     @Test
     public void testStatus(){
