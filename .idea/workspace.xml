@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="86db379a-b691-4f23-a469-db33c5c4c411" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/test/Tarea1/ArcherTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Tarea1/ArcherTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Tarea1/BarrackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Tarea1/BarrackTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Tarea1/CastleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Tarea1/CastleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Tarea1/InfantryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Tarea1/InfantryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Tarea1/MonkTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Tarea1/MonkTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Tarea1/SiegeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Tarea1/SiegeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tarea1.uml" beforeDir="false" afterPath="$PROJECT_DIR$/Tarea1.uml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -53,6 +48,8 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="JAVA/" value="1" />
+          <entry key="JAVA/Tarea1" value="1" />
           <entry key="class" value="2" />
           <entry key="iml" value="1" />
           <entry key="java" value="113" />
@@ -63,16 +60,17 @@
           <entry key="CLASS" value="2" />
           <entry key="IDEA_MODULE" value="1" />
           <entry key="JAVA" value="113" />
+          <entry key="UML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="11730" />
+          <entry key="java" value="11731" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="11730" />
+          <entry key="JAVA" value="11731" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -112,14 +110,177 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/Tarea1/TestScenario.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+            <state relative-caret-position="163">
+              <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="uml://JAVA/Tarea1">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>Tarea1</OriginalElement>
+              <nodes>
+                <node x="93.5" y="0.0">Tarea1.Attackable</node>
+                <node x="451.75" y="145.0">Tarea1.Attacker</node>
+                <node x="198.5" y="521.0">Tarea1.Siege</node>
+                <node x="712.5" y="521.0">Tarea1.Archer</node>
+                <node x="800.0" y="595.0">Tarea1.VillagerTest</node>
+                <node x="839.5" y="0.0">Tarea1.TestScenario</node>
+                <node x="406.0" y="595.0">Tarea1.MonkTest</node>
+                <node x="508.5" y="521.0">Tarea1.Monk</node>
+                <node x="997.0" y="595.0">Tarea1.ArcherTest</node>
+                <node x="121.0" y="366.0">Tarea1.Barrack</node>
+                <node x="197.0" y="933.0">Tarea1.CavalryTest</node>
+                <node x="0.0" y="366.0">Tarea1.Castle</node>
+                <node x="0.0" y="933.0">Tarea1.InfantryTest</node>
+                <node x="203.0" y="595.0">Tarea1.CastleTest</node>
+                <node x="0.0" y="595.0">Tarea1.BarrackTest</node>
+                <node x="294.5" y="521.0">Tarea1.Cavalry</node>
+                <node x="603.0" y="595.0">Tarea1.SiegeTest</node>
+                <node x="421.25" y="300.0">Tarea1.Unit</node>
+                <node x="25.75" y="79.0">Tarea1.Building</node>
+                <node x="606.5" y="521.0">Tarea1.Villager</node>
+                <node x="400.5" y="521.0">Tarea1.Infantry</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="Tarea1.Siege" target="Tarea1.Unit">
+                  <point x="19.0" y="-14.5" />
+                  <point x="255.5" y="491.0" />
+                  <point x="433.91666666666674" y="491.0" />
+                  <point x="-63.333333333333314" y="80.5" />
+                </edge>
+                <edge source="Tarea1.Archer" target="Tarea1.Attacker">
+                  <point x="20.5" y="-14.5" />
+                  <point x="774.0" y="260.0" />
+                  <point x="536.25" y="260.0" />
+                  <point x="39.0" y="14.5" />
+                </edge>
+                <edge source="Tarea1.Attacker" target="Tarea1.Attackable">
+                  <point x="0.0" y="-14.5" />
+                  <point x="497.25" y="49.0" />
+                  <point x="183.625" y="49.0" />
+                  <point x="38.625" y="14.5" />
+                </edge>
+                <edge source="Tarea1.Barrack" target="Tarea1.Building">
+                  <point x="-21.5" y="-14.5" />
+                  <point x="142.5" y="280.0" />
+                  <point x="139.75" y="280.0" />
+                  <point x="38.0" y="80.5" />
+                </edge>
+                <edge source="Tarea1.Unit" target="Tarea1.Attacker">
+                  <point x="0.0" y="-80.5" />
+                  <point x="0.0" y="14.5" />
+                </edge>
+                <edge source="Tarea1.Siege" target="Tarea1.Attacker">
+                  <point x="-19.0" y="-14.5" />
+                  <point x="217.5" y="260.0" />
+                  <point x="458.25" y="260.0" />
+                  <point x="-39.0" y="14.5" />
+                </edge>
+                <edge source="Tarea1.Barrack" target="Tarea1.Attackable">
+                  <point x="21.5" y="-14.5" />
+                  <point x="185.5" y="280.0" />
+                  <point x="188.25" y="280.0" />
+                  <point x="188.25" y="59.0" />
+                  <point x="157.875" y="59.0" />
+                  <point x="12.875" y="14.5" />
+                </edge>
+                <edge source="Tarea1.Castle" target="Tarea1.Attackable">
+                  <point x="-19.75" y="-14.5" />
+                  <point x="19.75" y="280.0" />
+                  <point x="15.25" y="280.0" />
+                  <point x="15.25" y="49.0" />
+                  <point x="106.375" y="49.0" />
+                  <point x="-38.625" y="14.5" />
+                </edge>
+                <edge source="Tarea1.Infantry" target="Tarea1.Attacker">
+                  <point x="-22.0" y="-14.5" />
+                  <point x="422.5" y="481.0" />
+                  <point x="407.58333333333337" y="481.0" />
+                  <point x="407.58333333333337" y="280.0" />
+                  <point x="484.25" y="280.0" />
+                  <point x="-13.0" y="14.5" />
+                </edge>
+                <edge source="Tarea1.Cavalry" target="Tarea1.Unit">
+                  <point x="21.5" y="-14.5" />
+                  <point x="359.0" y="501.0" />
+                  <point x="459.25" y="501.0" />
+                  <point x="-38.0" y="80.5" />
+                </edge>
+                <edge source="Tarea1.Building" target="Tarea1.Attackable">
+                  <point x="0.0" y="-80.5" />
+                  <point x="101.75" y="59.0" />
+                  <point x="132.125" y="59.0" />
+                  <point x="-12.875" y="14.5" />
+                </edge>
+                <edge source="Tarea1.Villager" target="Tarea1.Attacker">
+                  <point x="21.5" y="-14.5" />
+                  <point x="671.0" y="270.0" />
+                  <point x="523.25" y="270.0" />
+                  <point x="26.0" y="14.5" />
+                </edge>
+                <edge source="Tarea1.Infantry" target="Tarea1.Unit">
+                  <point x="22.0" y="-14.5" />
+                  <point x="466.5" y="501.0" />
+                  <point x="484.58333333333337" y="501.0" />
+                  <point x="-12.666666666666686" y="80.5" />
+                </edge>
+                <edge source="Tarea1.Monk" target="Tarea1.Unit">
+                  <point x="-19.5" y="-14.5" />
+                  <point x="528.0" y="501.0" />
+                  <point x="509.91666666666663" y="501.0" />
+                  <point x="12.666666666666629" y="80.5" />
+                </edge>
+                <edge source="Tarea1.Castle" target="Tarea1.Building">
+                  <point x="19.75" y="-14.5" />
+                  <point x="59.25" y="280.0" />
+                  <point x="63.75" y="280.0" />
+                  <point x="-38.0" y="80.5" />
+                </edge>
+                <edge source="Tarea1.Cavalry" target="Tarea1.Attacker">
+                  <point x="-21.5" y="-14.5" />
+                  <point x="316.0" y="270.0" />
+                  <point x="471.25" y="270.0" />
+                  <point x="-26.0" y="14.5" />
+                </edge>
+                <edge source="Tarea1.Monk" target="Tarea1.Attacker">
+                  <point x="19.5" y="-14.5" />
+                  <point x="567.0" y="501.0" />
+                  <point x="584.4166666666667" y="501.0" />
+                  <point x="584.4166666666667" y="280.0" />
+                  <point x="510.25" y="280.0" />
+                  <point x="13.0" y="14.5" />
+                </edge>
+                <edge source="Tarea1.Villager" target="Tarea1.Unit">
+                  <point x="-21.5" y="-14.5" />
+                  <point x="628.0" y="491.0" />
+                  <point x="535.25" y="491.0" />
+                  <point x="38.0" y="80.5" />
+                </edge>
+                <edge source="Tarea1.Archer" target="Tarea1.Unit">
+                  <point x="-20.5" y="-14.5" />
+                  <point x="733.0" y="481.0" />
+                  <point x="560.5833333333333" y="481.0" />
+                  <point x="63.33333333333326" y="80.5" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="0.6012931034482759" x="808.2544802867383" y="404.9175627240143" />
+              <SelectedNodes />
+              <Categories>
+                <Category>Fields</Category>
+              </Categories>
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
             </state>
           </provider>
         </entry>
@@ -151,15 +312,6 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/Tarea1/MonkTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -329,7 +481,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540518206706" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540520195871" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="true" />
@@ -466,17 +618,11 @@
       <workItem from="1540429316055" duration="597000" />
       <workItem from="1540429942166" duration="21374000" />
       <workItem from="1540479397585" duration="1544000" />
-      <workItem from="1540481273727" duration="30772000" />
+      <workItem from="1540481273727" duration="32684000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Tarea1_in_cc3002Tarea1 - 2018.10.25 at 22h 33m 42s.xml">
-      <configuration name="Tarea1 in cc3002Tarea1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Tarea1_in_cc3002Tarea1 - 2018.10.25 at 22h 33m 56s.xml">
-      <configuration name="Tarea1 in cc3002Tarea1" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Tarea1_in_cc3002Tarea1 - 2018.10.25 at 22h 36m 14s.xml">
       <configuration name="Tarea1 in cc3002Tarea1" configurationId="JUnit" />
     </history-entry>
@@ -501,13 +647,18 @@
     <history-entry file="Tarea1_in_cc3002Tarea1 - 2018.10.25 at 22h 41m 00s.xml">
       <configuration name="Tarea1 in cc3002Tarea1" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="Tarea1_in_cc3002Tarea1 - 2018.10.25 at 22h 42m 49s.xml">
+      <configuration name="Tarea1 in cc3002Tarea1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Tarea1_in_cc3002Tarea1 - 2018.10.25 at 22h 43m 11s.xml">
+      <configuration name="Tarea1 in cc3002Tarea1" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54287000" />
+    <option name="totallyTimeSpent" value="56199000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49822065" visible="true" weight="0.17165992" />
       <window_info id="Structure" order="1" sideWeight="0.5017794" side_tool="true" weight="0.2534413" />
@@ -518,7 +669,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.4128114" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4128114" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3985765" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -528,7 +679,7 @@
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.3291815" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32740214" />
-      <window_info anchor="right" id="Coverage" order="0" side_tool="true" visible="true" weight="0.2437247" />
+      <window_info anchor="right" id="Coverage" order="0" side_tool="true" weight="0.41214576" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
@@ -797,13 +948,207 @@
         </state>
       </provider>
     </entry>
+    <entry file="uml://JAVA/">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement />
+          <nodes>
+            <node x="" y="">com</node>
+            <node x="" y="">netscape</node>
+            <node x="" y="">junit</node>
+            <node x="" y="">oracle</node>
+            <node x="" y="">org</node>
+            <node x="" y="">sun</node>
+            <node x="" y="">META-INF</node>
+            <node x="" y="">jdk</node>
+            <node x="" y="">groovyjarjarasm</node>
+            <node x="" y="">Tarea1</node>
+            <node x="" y="">java</node>
+            <node x="" y="">groovy</node>
+            <node x="" y="">javax</node>
+            <node x="" y="">groovyjarjarcommonscli</node>
+            <node x="" y="">javafx</node>
+            <node x="" y="">groovyjarjarantlr</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.665871121718377" x="222.0" y="199.50000000000003" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/Tarea1/TestScenario.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+        <state relative-caret-position="163">
+          <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/Tarea1">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>Tarea1</OriginalElement>
+          <nodes>
+            <node x="93.5" y="0.0">Tarea1.Attackable</node>
+            <node x="451.75" y="145.0">Tarea1.Attacker</node>
+            <node x="198.5" y="521.0">Tarea1.Siege</node>
+            <node x="712.5" y="521.0">Tarea1.Archer</node>
+            <node x="800.0" y="595.0">Tarea1.VillagerTest</node>
+            <node x="839.5" y="0.0">Tarea1.TestScenario</node>
+            <node x="406.0" y="595.0">Tarea1.MonkTest</node>
+            <node x="508.5" y="521.0">Tarea1.Monk</node>
+            <node x="997.0" y="595.0">Tarea1.ArcherTest</node>
+            <node x="121.0" y="366.0">Tarea1.Barrack</node>
+            <node x="197.0" y="933.0">Tarea1.CavalryTest</node>
+            <node x="0.0" y="366.0">Tarea1.Castle</node>
+            <node x="0.0" y="933.0">Tarea1.InfantryTest</node>
+            <node x="203.0" y="595.0">Tarea1.CastleTest</node>
+            <node x="0.0" y="595.0">Tarea1.BarrackTest</node>
+            <node x="294.5" y="521.0">Tarea1.Cavalry</node>
+            <node x="603.0" y="595.0">Tarea1.SiegeTest</node>
+            <node x="421.25" y="300.0">Tarea1.Unit</node>
+            <node x="25.75" y="79.0">Tarea1.Building</node>
+            <node x="606.5" y="521.0">Tarea1.Villager</node>
+            <node x="400.5" y="521.0">Tarea1.Infantry</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="Tarea1.Siege" target="Tarea1.Unit">
+              <point x="19.0" y="-14.5" />
+              <point x="255.5" y="491.0" />
+              <point x="433.91666666666674" y="491.0" />
+              <point x="-63.333333333333314" y="80.5" />
+            </edge>
+            <edge source="Tarea1.Archer" target="Tarea1.Attacker">
+              <point x="20.5" y="-14.5" />
+              <point x="774.0" y="260.0" />
+              <point x="536.25" y="260.0" />
+              <point x="39.0" y="14.5" />
+            </edge>
+            <edge source="Tarea1.Attacker" target="Tarea1.Attackable">
+              <point x="0.0" y="-14.5" />
+              <point x="497.25" y="49.0" />
+              <point x="183.625" y="49.0" />
+              <point x="38.625" y="14.5" />
+            </edge>
+            <edge source="Tarea1.Barrack" target="Tarea1.Building">
+              <point x="-21.5" y="-14.5" />
+              <point x="142.5" y="280.0" />
+              <point x="139.75" y="280.0" />
+              <point x="38.0" y="80.5" />
+            </edge>
+            <edge source="Tarea1.Unit" target="Tarea1.Attacker">
+              <point x="0.0" y="-80.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="Tarea1.Siege" target="Tarea1.Attacker">
+              <point x="-19.0" y="-14.5" />
+              <point x="217.5" y="260.0" />
+              <point x="458.25" y="260.0" />
+              <point x="-39.0" y="14.5" />
+            </edge>
+            <edge source="Tarea1.Barrack" target="Tarea1.Attackable">
+              <point x="21.5" y="-14.5" />
+              <point x="185.5" y="280.0" />
+              <point x="188.25" y="280.0" />
+              <point x="188.25" y="59.0" />
+              <point x="157.875" y="59.0" />
+              <point x="12.875" y="14.5" />
+            </edge>
+            <edge source="Tarea1.Castle" target="Tarea1.Attackable">
+              <point x="-19.75" y="-14.5" />
+              <point x="19.75" y="280.0" />
+              <point x="15.25" y="280.0" />
+              <point x="15.25" y="49.0" />
+              <point x="106.375" y="49.0" />
+              <point x="-38.625" y="14.5" />
+            </edge>
+            <edge source="Tarea1.Infantry" target="Tarea1.Attacker">
+              <point x="-22.0" y="-14.5" />
+              <point x="422.5" y="481.0" />
+              <point x="407.58333333333337" y="481.0" />
+              <point x="407.58333333333337" y="280.0" />
+              <point x="484.25" y="280.0" />
+              <point x="-13.0" y="14.5" />
+            </edge>
+            <edge source="Tarea1.Cavalry" target="Tarea1.Unit">
+              <point x="21.5" y="-14.5" />
+              <point x="359.0" y="501.0" />
+              <point x="459.25" y="501.0" />
+              <point x="-38.0" y="80.5" />
+            </edge>
+            <edge source="Tarea1.Building" target="Tarea1.Attackable">
+              <point x="0.0" y="-80.5" />
+              <point x="101.75" y="59.0" />
+              <point x="132.125" y="59.0" />
+              <point x="-12.875" y="14.5" />
+            </edge>
+            <edge source="Tarea1.Villager" target="Tarea1.Attacker">
+              <point x="21.5" y="-14.5" />
+              <point x="671.0" y="270.0" />
+              <point x="523.25" y="270.0" />
+              <point x="26.0" y="14.5" />
+            </edge>
+            <edge source="Tarea1.Infantry" target="Tarea1.Unit">
+              <point x="22.0" y="-14.5" />
+              <point x="466.5" y="501.0" />
+              <point x="484.58333333333337" y="501.0" />
+              <point x="-12.666666666666686" y="80.5" />
+            </edge>
+            <edge source="Tarea1.Monk" target="Tarea1.Unit">
+              <point x="-19.5" y="-14.5" />
+              <point x="528.0" y="501.0" />
+              <point x="509.91666666666663" y="501.0" />
+              <point x="12.666666666666629" y="80.5" />
+            </edge>
+            <edge source="Tarea1.Castle" target="Tarea1.Building">
+              <point x="19.75" y="-14.5" />
+              <point x="59.25" y="280.0" />
+              <point x="63.75" y="280.0" />
+              <point x="-38.0" y="80.5" />
+            </edge>
+            <edge source="Tarea1.Cavalry" target="Tarea1.Attacker">
+              <point x="-21.5" y="-14.5" />
+              <point x="316.0" y="270.0" />
+              <point x="471.25" y="270.0" />
+              <point x="-26.0" y="14.5" />
+            </edge>
+            <edge source="Tarea1.Monk" target="Tarea1.Attacker">
+              <point x="19.5" y="-14.5" />
+              <point x="567.0" y="501.0" />
+              <point x="584.4166666666667" y="501.0" />
+              <point x="584.4166666666667" y="280.0" />
+              <point x="510.25" y="280.0" />
+              <point x="13.0" y="14.5" />
+            </edge>
+            <edge source="Tarea1.Villager" target="Tarea1.Unit">
+              <point x="-21.5" y="-14.5" />
+              <point x="628.0" y="491.0" />
+              <point x="535.25" y="491.0" />
+              <point x="38.0" y="80.5" />
+            </edge>
+            <edge source="Tarea1.Archer" target="Tarea1.Unit">
+              <point x="-20.5" y="-14.5" />
+              <point x="733.0" y="481.0" />
+              <point x="560.5833333333333" y="481.0" />
+              <point x="63.33333333333326" y="80.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.6012931034482759" x="808.2544802867383" y="404.9175627240143" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>
