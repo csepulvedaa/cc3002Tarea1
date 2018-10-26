@@ -48,9 +48,6 @@ public abstract class Unit implements Attacker {
     protected double getHP(){
         return hp;
     }
-    protected double getmaxHP(){
-        return maxhp;
-    }
     //metodo para atacar por defecto
     public void attack(Unit U) {
         this.damage+=U.attack;

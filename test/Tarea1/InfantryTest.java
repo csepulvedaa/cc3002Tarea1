@@ -14,7 +14,7 @@ public class InfantryTest {
      */
     @Before
     //Start the scenario
-    public void Setup(){
+    public void setUp() throws Exception {
         Infante = new Infantry();
         Arquero = new Archer();
         Aldeano = new Villager();
@@ -23,6 +23,13 @@ public class InfantryTest {
         hp=100;
         attack=50;
         damage=0;}
+    @Test
+    public void testGS(){
+        Infante.SetStatus(true);
+        assertTrue("Estado vivo",Infante.getStatus());
+        Infante.SetType(type);
+        assertEquals("Tipo infate",Infante.type,type);
+    }
     @Test
     public void testStatus(){
         //iguala hp al daño, condicion de debilitar unidad
@@ -38,10 +45,6 @@ public class InfantryTest {
         Infante.SetDamage(hp);
         Infante.attack(Asedio);
         assertEquals("Expects no damage,Fainted unit cant attack",0,Asedio.getDamage(),0);
-
-
-
-
     }
     @Test
 
@@ -63,7 +66,7 @@ public class InfantryTest {
     public void recievedamagefromVillager() {
         Aldeano.SetAttack(10);
         Aldeano.attack(Infante);
-        assertEquals("Expect higher damage",8,Infante.getDamage(),0);
+        assertEquals("Expect Lower damage",8,Infante.getDamage(),0);
 
 
     }

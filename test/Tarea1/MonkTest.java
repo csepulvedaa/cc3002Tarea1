@@ -28,7 +28,14 @@ public class MonkTest {
         damage=0;}
 
     @Test
-    public void attack() {
+    public void testGS(){
+        Monje.SetStatus(true);
+        assertTrue("Estado vivo",Monje.getStatus());
+        Monje.SetType(type);
+        assertEquals("Tipo Monje",Monje.type,type);
+    }
+    @Test
+    public void tesStatus() {
         //iguala hp al daño, condicion de debilitar unidad
         Monje.SetHp(0);
         assertFalse("Expects Unit dead",Monje.getStatus());

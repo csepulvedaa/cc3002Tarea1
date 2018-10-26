@@ -27,6 +27,13 @@ public class CastleTest {
         damage=0;
     }
     @Test
+    public void testGS(){
+        Castillo.SetStatus(true);
+        assertTrue("Estado vivo",Castillo.getStatus());
+        Castillo.SetType(type);
+        assertEquals("Tipo Monje",Castillo.type,type);
+    }
+    @Test
     public void testStatus(){
         //iguala hp al daño, condicion de debilitar unidad
         Castillo.SetHp(0);

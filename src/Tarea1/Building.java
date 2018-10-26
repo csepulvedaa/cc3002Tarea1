@@ -17,9 +17,6 @@ public abstract class Building implements Attackable{
     void SetHp(double i){
         this.hp=i;
     }
-    void AddHp(double i){
-        this.hp+=i;
-    }
     public void SetType(String Type){
         this.type=Type;
     }
@@ -84,6 +81,7 @@ public abstract class Building implements Attackable{
             this.damage-=U.attack*0.3;}
 
     }
+
     public void receivedamagefromSiege(Siege U){
         this.damage+=U.attack*2;
     }
@@ -94,9 +92,9 @@ public abstract class Building implements Attackable{
 
 
     public  void attack(Unit U){
-        System.out.println("Unidad del thipo "+this.type+" cant attack");
+        System.out.println("Unidad del tipo "+this.type+" cant attack");
     }
     public  void attack(Building B){
-        System.out.println("Unidad del thipo "+this.type+" cant attack");
+        System.out.println("Unidad del tipo "+this.type+" cant attack");
     }
 }

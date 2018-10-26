@@ -9,7 +9,8 @@ import static org.junit.Assert.*;
 public class SiegeTest {
     private String type;
     private double hp ,attack,damage;
-    private Unit Infante,Arquero,Caballo,Asedio,Aldeano,Monje;
+    private Unit Infante,Arquero,Caballo,Asedio,Aldeano;
+    private Building Castillo;
 
     @Before
     public void setUp() throws Exception {
@@ -18,6 +19,7 @@ public class SiegeTest {
         Aldeano = new Villager();
         Asedio = new Siege();
         Caballo = new Cavalry();
+        Castillo = new Castle();
         type="Siege";
         hp=300;
         attack=100;
@@ -59,11 +61,20 @@ public class SiegeTest {
         assertEquals("Expected higher damage",150,Asedio.getDamage(),0);
     }
     @Test
+    public void testdamagefromCastle(){
+        Castillo.SetAttack(100);
+        Castillo.attack(Asedio);
+        assertEquals("Expected Lower damage",50,Asedio.getDamage(),0);
+    }
+    @Test
     public void testdamagefromVillager(){
         Aldeano.SetAttack(100);
-        Asedio.SetHp(100);
         Aldeano.attack(Asedio);
-        assertEquals("Expect higher hp 100*0.5 + 100 ",150,Asedio.getHP(),0);
+        assertEquals("Expected lower damage",-50,Asedio.getDamage(),0);
+        Asedio.SetHp(hp);
+        Asedio.SetDamage(hp);
+        Aldeano.attack(Asedio);
+        assertEquals("Expects no change in damage as castle is dead, Villager cant revive",hp,Asedio.getDamage(),0);
     }
 
 

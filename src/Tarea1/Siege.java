@@ -58,8 +58,12 @@ public class Siege extends Unit implements Attacker {
 
     @Override
     public void receivedamagefromVillager(Villager U ){
-        this.hp+=(U.getAttack()*0.5);
-    }
+        if (this.hp<=this.damage){
+            System.out.println("Unidad muerta, no puede ser revivida Hp"+this.hp+"Daño "+this.damage);
+        }
+        else{
+            this.damage-=U.attack*0.5;
+    }}
     //Monje no hace daño a barraca
     @Override
     public void receivedamagefromMonk(Monk M ){
